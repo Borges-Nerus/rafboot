@@ -16,7 +16,8 @@ btn.addEventListener("click", function () {
 
 voltar.addEventListener("click", function() {
   //alert ("teste");
-    this.addEventListener = open("https://borges-nerus.github.io/rafboot/index");
+    this.addEventListener = open("https://borges-nerus.github.io/rafboot/index")
+    this.addEventListener = close();
 });
 
 function getRandomNumber() {
